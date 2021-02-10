@@ -1,0 +1,181 @@
+{"journeys": 
+  [
+    {
+    "flow_code": "CDT",
+    "journey": {
+      "transport_mode": "road",
+      "route_code": " ",
+      "vehicle_no": "UP34UP7835",
+      "location_provider": "location_provider",
+      "lr_no": "aditya_14_jan_1",
+      "sub_lr_no": "aditya_14_jan_1",
+      "record_status": "add",
+      "invoice_no": "aditya_14_jan_1",
+      "exp_start_time": "2021-01-31 16:22:40",
+      "exp_end_time": "2021-02-06 16:22:00",
+      "act_start_time": "2021-01-31 16:22:40",
+      "act_end_time": "2021-02-06 16:22:00",
+      "eta": "2021-02-06 16:22:00",
+      "vessel_no": "12345",
+      "vessel_name": "vessel name",
+      "sim_tracking_frequency": 30,
+      "tracking_provider": "gps",
+      "add_info": [
+        {
+          "key": "gate_in_time",
+          "value": "2021-01-31 15:30:37"
+        },
+        {
+          "key": "gate_out_time",
+          "value": "2021-01-31 16:22:40"
+        }
+      ],
+      "consignee_name": "mumbai",
+      "transporter_name": "harsha drinks",
+      "driver_name": "chalak1",
+      "driver_number": "+919535510042",
+      "dispatcher": "sim",
+      "guard_on_duty": "TEST",
+      "helper": "har282",
+      "checker": "",
+      "owner_emails": [
+        "fscuat@gmail.com"
+      ],
+      "shipments": [
+        {
+          "owner_emails": [
+            "fscuat@gmail.com"
+          ],
+          "consignment_no": "mum5",
+          "exp_start_time": "2021-01-31 16:22:40",
+          "act_start_time": "2021-01-31 16:22:00",
+          "act_end_time": "2021-02-06 16:22:00",
+          "vehicle_assignment_time": "2021-03-26 16:22:40",
+          "record_status": "add",
+          "exp_end_time": "2021-02-06 16:22:00",
+          "material": "muai",
+          "quantity": "5",
+          "container_no": "67877777",
+          "bill_of_lading": "sdbhffhsdvbc vhffdyuvbsdhfv v hf",
+          "consignee_name": "mumbai",
+          "start_node": {
+            "sequence": "1",
+            "location_name": "pune",
+            "transit_time_p_node": "",
+            "transit_time_f_node": "",
+            "address_line1": "pune",
+            "pincode": "411040",
+            "city": "pune",
+            "location_code": "pune",
+            "state": "maharashtra",
+            "country": "IN",
+            "location_manager": "",
+            "location_type": "",
+            "location_sub_type": "",
+            "location_manager_contact": "",
+            "primary_lat": "18.495168",
+            "primary_long": "73.911705",
+            "primary_radius": "5"
+          },
+          "end_node": {
+            "sequence": "1",
+            "location_name": "mumbai",
+            "transit_time_p_node": "",
+            "transit_time_f_node": "",
+            "address_line1": "mumbai",
+            "pincode": "400047",
+            "city": "mumbai",
+            "location_code": "mum6",
+            "state": "maharshtra",
+            "location_manager": "",
+            "location_type": "",
+            "location_sub_type": "",
+            "location_manager_contact": "",
+            "primary_lat": "19.128898",
+            "primary_long": "72.835199",
+            "primary_radius": "12"
+          },
+          "journey_start_node": {
+            "sequence": "1",
+            "location_name": "pune",
+            "transit_time_p_node": "",
+            "transit_time_f_node": "",
+            "address_line1": "pune",
+            "pincode": "411040",
+            "city": "pune",
+            "location_code": "pune",
+            "state": "maharashtra",
+            "country": "IN",
+            "location_manager": "",
+            "location_type": "",
+            "location_sub_type": "",
+            "location_manager_contact": "",
+            "primary_lat": "18.495168",
+            "primary_long": "73.911705",
+            "primary_radius": "5"
+          },
+          "journey_end_node": {
+            "sequence": "1",
+            "location_name": "mumbai",
+            "transit_time_p_node": "",
+            "transit_time_f_node": "",
+            "address_line1": "mumbai",
+            "pincode": "400047",
+            "city": "mumbai",
+            "location_code": "mum6",
+            "state": "maharshtra",
+            "location_manager": "",
+            "location_type": "",
+            "location_sub_type": "",
+            "location_manager_contact": "",
+            "primary_lat": "19.128898",
+            "primary_long": "72.835199",
+            "primary_radius": "12"
+          }
+        }
+      ],
+      "journey_nodes": [
+        {
+          "sequence": 1,
+          "location_name": "pune",
+          "transit_time_p_node": "",
+          "transit_time_f_node": "",
+          "address_line1": "pune",
+          "pincode": "411040",
+          "city": "pune",
+          "location_code": "pune",
+          "state": "maharashtra",
+          "country": "IN",
+          "location_manager": "",
+          "location_type": "",
+          "location_sub_type": "",
+          "location_manager_contact": "",
+          "primary_lat": "18.495168",
+          "primary_long": "73.911705",
+          "primary_radius": "5"
+        },
+        {
+          "sequence": 2,
+          "location_name": "mumbai",
+          "transit_time_p_node": "",
+          "transit_time_f_node": "1260",
+          "address_line1": "mumbai",
+          "pincode": "400047",
+          "city": "mumbai",
+          "location_code": "mum6",
+          "address_line2": "",
+          "state": "maharshtra",
+          "country": "",
+          "location_manager": "",
+          "location_type": "",
+          "location_sub_type": "",
+          "location_manager_contact": "",
+          "primary_lat": "19.128898",
+          "primary_long": "72.835199",
+          "primary_radius": "12"
+        }
+      ]
+    }
+  }
+]
+}
