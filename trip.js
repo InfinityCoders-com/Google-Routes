@@ -24,7 +24,7 @@ const pingInsertUrl = {
 
 const mapsApiUrl = `https://maps.googleapis.com/maps/api/directions/json`;
 var mapKey = 'AIzaSyBZbiDpFhGYByYCBwdy_oY3zQP_0PGa2HY' // new api for gts server
-// 'AIzaSyAMRfigkZLcs5qTEHrwHqCP7vfieyAQSHw' my micosoft api
+
 
 function generateLogFileData({ route_data, vehicle_no, source = "trucks_create" }) {
 	let temp = ''

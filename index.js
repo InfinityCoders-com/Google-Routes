@@ -43,7 +43,7 @@ http.createServer(function (req, res) {
 				tripApi({
 					data,
 					env: 'qa',
-					mapKey: 'AIzaSyAMRfigkZLcs5qTEHrwHqCP7vfieyAQSHw',
+					mapKey: '',
 					stops: true
 				})
 				fs.writeFile('routes.json', JSON.stringify({ trip: data }), function (err) {
